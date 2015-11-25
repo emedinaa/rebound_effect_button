@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
         butMe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               //showMessage("Click Me");
-                gotoSecondActivity();
+               showMessage("Click Me");
+                //gotoSecondActivity();
             }
         });
 
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //showMessage("Animation");
                 Log.v(TAG, "animation click ");
-                gotoSecondActivity();
+                //gotoSecondActivity();
             }
         });
     }
