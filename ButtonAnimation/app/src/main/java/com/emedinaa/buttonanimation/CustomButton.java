@@ -62,7 +62,7 @@ public class CustomButton extends Button
 
                         downAnimUp = ObjectAnimator.ofPropertyValuesHolder(CustomButton.this, PropertyValuesHolder.ofFloat("scaleX", 1.0f),
                                 PropertyValuesHolder.ofFloat("scaleY", 1.0f));
-                        downAnimUp.setDuration(100);
+                        downAnimUp.setDuration(80);
                         downAnimUp.setInterpolator(ace_decelerator);
                         downAnimUp.addListener(listenerUp);
                         downAnimUp.start();
@@ -74,7 +74,7 @@ public class CustomButton extends Button
                     {
                         downAnimDown = ObjectAnimator.ofPropertyValuesHolder(CustomButton.this, PropertyValuesHolder.ofFloat("scaleX", 0.9f),
                                 PropertyValuesHolder.ofFloat("scaleY", 0.9f));
-                        downAnimDown.setDuration(100);
+                        downAnimDown.setDuration(80);
                         downAnimDown.setInterpolator(ace_decelerator);
                         downAnimDown.addListener(listener);
                         downAnimDown.start();
